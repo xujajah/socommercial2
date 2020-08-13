@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg{
+    background-image: url("../images/backround.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-bg{
+    background-image: url("../images/top background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-bg{
+    background-image: url("../images/formbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 660px) {
+    p{
+        font-size: 10px !important;
+    }
+}
